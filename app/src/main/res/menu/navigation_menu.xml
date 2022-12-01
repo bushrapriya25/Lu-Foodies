@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item android:title="Task">
+            <menu>
+
+                <item
+                    android:id="@+id/mHome"
+                    android:icon="@drawable/ic_baseline_home_24"
+                    android:title="Home" />
+
+
+
+                <item
+                    android:id="@+id/mDashboard"
+                    android:icon="@drawable/ic_baseline_dashboard_24"
+                    android:title="Dashboard" />
+
+                <item
+                    android:id="@+id/mRate"
+                    android:icon="@drawable/ic_baseline_rate_review_24"
+                    android:title="Rate Me" />
+
+            </menu>
+
+        </item>
+
+    </group>
+
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+        <item android:title="Profile">
+
+            <menu>
+                <item
+                    android:id="@+id/Login"
+                    android:icon="@drawable/ic_baseline_login_24"
+                    android:title="Login" />
+
+                <item
+                    android:id="@+id/Logout"
+                    android:icon="@drawable/ic_baseline_login_24"
+                    android:title="Logout" />
+            </menu>
+
+        </item>
+
+    </group>
+
+    <group
+        android:id="@+id/group3"
+        android:checkableBehavior="single">
+        <item android:title="More App">
+
+            <menu>
+                <item
+                    android:id="@+id/shareapp"
+                    android:icon="@drawable/ic_baseline_share_24"
+                    android:title="Share app" />
+
+                <item
+                    android:id="@+id/Policy"
+                    android:icon="@drawable/ic_baseline_policy_24"
+                    android:title="policy" />
+            </menu>
+
+        </item>
+
+    </group>
+
+
+</menu>
